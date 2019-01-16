@@ -9,6 +9,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: 'Ubuntu', sans-serif;
 }
 
+#folder-list-container {
+  width: 100%;
+  min-height: 100px;
+}
+
+.folder-item {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid red;
+  padding: 5px 0;
+}
+
 #vid-grid-container {
   width: 100%;
   min-height: 100px;
