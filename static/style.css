@@ -1,0 +1,55 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 1em auto;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#vid-grid-container {
+  width: 100%;
+  min-height: 100px;
+}
+
+.vid-grid {
+
+}
+
+.vid-item {
+  width: 100%;
+  display: flex;
+  margin-bottom: 35px;
+  border: 1px solid red;
+  padding: 20px 0;
+  flex-direction: row;
+}
+
+.vid-item .vid-img {
+  flex: 1;
+}
+
+.vid-img .vid-thumb {
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.vid-item .vid-text {
+  flex: 2;
+}
+
+.vid-text .vid-title {
+  text-align: left;
+  font-size: 20px;
+}
+
+.vid-text .vid-desc {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: auto;
+}
